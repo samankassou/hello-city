@@ -2,7 +2,7 @@
 
 @section('title')
 @section('content')
-	<img src="/images/cameroon-flag.png" alt="Cameroon Flag">
+	<img src="{{ asset('images/cameroon-flag.png') }}" alt="Cameroon Flag">
 
     <h1>Hello from Cameroon!</h1>
 
